@@ -109,4 +109,131 @@ section  .topic{
     margin-right: 200px;
     
 }
-  
+
+@media (max-width: 1190px) {
+    section .content{
+      width: 85%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .about .about-details{
+      justify-content: center;
+      flex-direction: column;
+    }
+    .about .about-details .left{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .about-details .right{
+      width: 90%;
+      margin: 40px 0;
+    }
+    .about .left img{
+        width: 617px;
+        height: 512px;
+      align-items: center;
+    }
+}
+
+
+@media (max-width: 320px) {
+nav .navbar{
+    width: 90%;
+}
+
+
+section  .topic{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:39.6; /* 115% */
+    letter-spacing: -1.6px;
+    margin-top: 103px;
+    
+}
+
+.about-details .right p{
+    width: 211px;
+    height: 49px;
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 154.545% */
+    align-items: center;
+    margin-top: 15px;
+}
+
+.about .left img{
+    width: 32px;
+    height: 56.8px;
+    object-fit: cover;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+}
+
+@media (max-width: 750px) {
+    nav .navbar{
+        width: 90%;
+    }
+    nav .navbar .menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background: #0E2431;
+        height: 100vh;
+        max-width: 400px;
+        width: 100%;
+        margin-top: 43px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav .navbar .menu a{
+        font-size: 23px;
+        display: block;
+        color: #fff;
+        margin-top: 43px;
+        margin-left: 224px;
+    }
+    section  .topic{
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 82.8px; /* 115% */
+        letter-spacing: -1.6px;
+        margin-top: 286px;
+        
+    }
+    
+    .about-details .right p{
+        width: 573.5px;
+        color: #FFF;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px; /* 154.545% */
+        align-items: center;
+        margin-top: 23px;
+    }
+    
+    .about .left img{
+        width: 320px;
+        height: 366px;
+        object-fit: cover;
+        margin-top: 40px;
+        align-items: center;
+        
+    }
+    
+    }
