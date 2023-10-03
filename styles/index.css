@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin-left: 142px;
+    background-color: black;
+}
+
+ nav{
+    position: fixed;
+   justify-content: space-between;
+   
+ }
+
+nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 62px;
+   
+}
+
+nav .navbar .logo a{
+    color: #FFF;
+    font-family: 'Actor', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.25px;
+    margin-right: 78px;
+}
+
+nav .navbar .menu{
+    display: flex;
+    position: relative;
+}
+
+nav .navbar .menu li{
+    list-style: none;
+    margin-right: 28px;
+  }
+
+.navbar .menu a{
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+}
+
+.navbar .menu a:hover{
+color: #949597;
+}
+
+
+section{
+    padding-top: 40px;
+}
+
+section .content{
+width: 100%;
+margin: 40px auto;
+font-family: 'Poppins', sans-serif;
+}
+
+.about .about-details{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+section  .topic{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 102px; /* 121.429% */
+    letter-spacing: -2px;
+    margin-top: 186px;
+ 
+}
+
+.about-details .right p{
+    width: 410px;
+    height: 98px;
+    color: #FFF;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 154.545% */
+    margin-left: 142x;
+    margin-top: 45px;
+}
+
+.about .left img{
+    width: 585px;
+    height: 690px;
+    object-fit: cover;
+    margin-right: 200px;
+    
+}
+  
